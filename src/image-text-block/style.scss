@@ -1,0 +1,17 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ */
+ .wp-block-create-block-image-text-block {
+    padding-right: 10px;
+ }
+.wp-block-create-block-image-text-block .wp-block-columns {
+    background-color: white;
+    border: 2px solid rgb(100, 34, 255);
+    box-shadow: 5px 5px rgba(100, 34, 255, 0.5),
+                10px 10px rgba(100, 34, 255, 0.4),
+                15px 15px rgba(100, 34, 255, 0.3),
+                20px 20px rgba(100, 34, 255, 0.2),
+                25px 25px rgba(100, 34, 255, 0.1);
+    gap: 1rem;
+}

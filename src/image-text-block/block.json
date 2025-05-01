@@ -1,0 +1,25 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "create-block/image-text-block",
+	"version": "0.2.0",
+	"title": "Image Text Block",
+	"category": "design",
+	"icon": "align-pull-left",
+	"description": "Image and text block created with the Create Block tool.",
+	"example": {},
+	"keywords": [
+		"image",
+		"text",
+		"block",
+		"custom"
+	],
+	"supports": {
+		"html": false
+	},
+	"textdomain": "image-text-block",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css",
+	"viewScript": "file:./view.js"
+}
