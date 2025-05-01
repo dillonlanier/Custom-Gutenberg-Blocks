@@ -22,3 +22,10 @@ styling.
 1. Upload the plugin files to the `/wp-content/plugins/image-text-block` directory.
 2. Activate the plugin through the 'Plugins' screen in WordPress
 
+== NOTE ==
+This upload leaves out the following files and folders for the sake of simplicity and space:
+- package-lock.json
+- package.json
+- .editorconfig
+- /node_modules
+- /build
